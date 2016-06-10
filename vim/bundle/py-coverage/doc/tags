@@ -1,0 +1,9 @@
+:PyCoverageClear	py-coverage.txt	/*:PyCoverageClear*
+:PyCoverageHighlight	py-coverage.txt	/*:PyCoverageHighlight*
+:PyCoverageSetLoclist	py-coverage.txt	/*:PyCoverageSetLoclist*
+:PyCoverageSetQuickfix	py-coverage.txt	/*:PyCoverageSetQuickfix*
+PyCoverageMissedLines	py-coverage.txt	/*PyCoverageMissedLines*
+g:py_coverage_bin	py-coverage.txt	/*g:py_coverage_bin*
+g:py_coverage_dir	py-coverage.txt	/*g:py_coverage_dir*
+py-coverage	py-coverage.txt	/*py-coverage*
+py-coverage.txt	py-coverage.txt	/*py-coverage.txt*
