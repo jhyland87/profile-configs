@@ -4,7 +4,7 @@ set nocompatible
 filetype plugin indent on
 syntax on
 
-color tir_black
+color distinguished
 hi Search guibg=#336633 guifg=White
 hi IncSearch gui=reverse guibg=bg guifg=fg
 
@@ -52,8 +52,8 @@ augroup END
 let g:CommandTMaxFiles=25000
 let g:SuperTabNoCompleteAfter = ['^', '\s']
 let g:syntastic_always_populate_loc_list = 1
-let g:ctrlp_open_multiple_files = 'tj'
-au VimEnter,VimResized * let g:ctrlp_max_height = &lines
+let g:ctrlp_open_multiple_files = 'tjr'
+au VimEnter,VimResized * let g:ctrlp_match_window = 'bottom,order:ttb,min:1,max:' . &lines
 
 call pathogen#infect()
 call pathogen#helptags()
